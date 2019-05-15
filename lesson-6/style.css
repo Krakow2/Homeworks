@@ -31,3 +31,9 @@ html {
 	font-size: 23px;
 	font-weight: bold;
 }
+.button {
+	display: inline-block;
+	vertical-align: middle;
+	width: 150px;
+	height: 20px;
+}
