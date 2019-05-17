@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+.first_block {
+	display: flex;
+	justify-content: center;
+	margin:auto;
+	width: 1367px;
+	height: 803px;
+	background-color: #ffffff;
+}
+.description {
+	text-align: left;
+	padding-top: 137px;
+	display: flex;
+	align-items:;
+	flex-direction: column;
+}
+.image {
+	padding: 77px;
+}
+.title {
+	padding-right: 4px;
+	color: #000000;
+	font-size: 48px;
+	font-weight: 700;
+}
+.title_2 {
+	width: 306px;
+	height: 28px;
+	color: #000000;
+	font-size: 30px;
+	font-weight: 400;
+	padding-bottom: 10px;
+	padding-left: 5px;
+
+}
+
+.main_text {
+	width: 526px;
+	height: 99px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	padding-top: 10px; 
+}
+.price {
+	width: 128px;
+	height: 46px;
+	color: #313131;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.buy {
+	width: 87px;
+	height: 23px;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	padding: 22px 42px;
+	background-color: #f05a22;
+	border-radius: 5px;
+	height: 67px;
+	width: 175px;
+	text-align: center;
+}
+.learn_more {
+	width: 227px;
+	height: 24px;
+	color: #f05a22;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	width: 287px;
+	height: 67px;
+	border-radius: 5px;
+	border: 2px solid #f05a22;
+	text-align: center;
+	padding: 21px 30px 22px 30px;
+}
+.second_block {
+	padding-top: 99px;
+	text-align: center;
+	margin:auto;
+	width: 1367px;
+	height: 408px;
+	border: 1px solid #ffffff;
+	background-color: #f2f2f2;
+}
+.title2 {
+	width: 291px;
+	height: 27px;
+	color: #333333;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+}
+.delivery {
+	padding-top: 87px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	width: 1075px;
+	height: 106px;
+}
+.element {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.signature1 {
+	width: 181px;
+	height: 36px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.signature2 {
+	width: 241px;
+	height: 41px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+} 
+.signature3 {
+	width: 194px;
+	height: 39px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 400;
+	font-weight: 400;
+} 
+.signature4 {
+	width: 194px;
+	height: 41px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.btn {
+	display: flex;
+	margin: 10px;
+	justify-content: space-between;	
+}
