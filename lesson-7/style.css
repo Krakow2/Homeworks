@@ -1,8 +1,9 @@
 * {
 	box-sizing: border-box;
+    background-color: #f9f9f9;
+
 }
 .tools {
-	border: 1px solid #d7d7d7;
 	background-color: #f9f9f9;
 	align-items: center;
 	display: flex;
@@ -18,10 +19,12 @@
 	 background-color: #f9f9f9;
 	 display: flex;
      justify-content: space-between;
-     width: 1139px;
+     width: 1139px;   
 }
 .element {
-     height: 366px; 
+	 width: 263px;
+     height: 210px; 
+     background-color: white;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -29,6 +32,7 @@
 }
 .cost {
 	font-weight: bold;
+	padding-bottom: 
 }
 .btn {
 	font-weight: 700;
@@ -39,5 +43,18 @@
 	border: 1px solid #23bac1;
 }
 .cost{
-	font-size: bold;
+	
+}
+body {
+	margin: 0;
+}
+.name {
+	padding-top: 27px;
+	padding-bottom: 22px;
+
+}
+img {
+}
+b {
+	padding-bottom: 25px;
 }
