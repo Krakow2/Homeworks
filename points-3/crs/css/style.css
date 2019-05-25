@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	outline: 0 !important;
 
 }
 body {
@@ -7,6 +8,7 @@ body {
 	display: flex;
 	justify-content: center;
 	padding: 86px;
+	background: #f6f6f6;
 }
 .main-container {
 	border: 1px solid #d7d7d7;
@@ -54,7 +56,6 @@ body {
     padding-bottom: 56px;
 }
 .btn {
-
 	padding: 16px 39px;
 	color: #ffffff;
     font-size: 19px;
