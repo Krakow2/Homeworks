@@ -1,5 +1,12 @@
 * {
 	box-sizing: border-box;
+
+}
+body {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding: 86px;
 }
 .main-container {
 	border: 1px solid #d7d7d7;
@@ -7,7 +14,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: center;
 	width: 1010px;
 	height: 503px;
 }
