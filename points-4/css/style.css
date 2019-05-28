@@ -7,6 +7,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #f6f6f6;
+  outline: 0 !important;
 }
 
 .title {
