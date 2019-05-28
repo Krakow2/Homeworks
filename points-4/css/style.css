@@ -1,0 +1,118 @@
+* {
+  color: #666666;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+}
+
+.main-container {
+  width: 1176px;
+  height: 365px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: column;
+      -ms-flex-pack: column;
+          justify-content: column;
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 75px;
+}
+
+.main-block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 276px;
+  height: 365px;
+  margin-right: 24px;
+}
+
+.main-block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 276px;
+  height: 365px;
+  margin-right: 24px;
+}
+
+.main-block3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 276px;
+  height: 365px;
+  margin-right: 24px;
+}
+
+.main-block4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 276px;
+  height: 365px;
+}
+
+.main-btn1 {
+  color: #66cc66;
+  font-weight: 700;
+  line-height: 25px;
+  width: 133px;
+  height: 41px;
+  border: 2px solid #66cc66;
+}
+
+.main-btn2 {
+  background-color: #66cc66;
+  color: #ffffff;
+  height: 41px;
+  width: 133px;
+  border: none;
+}
+
+.main-btn {
+  padding-top: 29px;
+}
+
+.subtitle {
+  line-height: 22px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
