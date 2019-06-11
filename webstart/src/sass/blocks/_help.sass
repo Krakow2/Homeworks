@@ -1,0 +1,54 @@
+.help
+  display: flex
+  margin-top: 23px
+  &__img
+    bottom: 0
+  &__img2
+    bottom: 0
+  &__img3
+    bottom: 0
+  &__text
+    line-height: 1.5
+    width: 317px
+    padding-top: 22px
+    padding-left: 24px
+    padding-bottom: 48px
+    font-size: 16px
+    +bold
+  &__text2
+    line-height: 1.5
+    width: 321px
+    padding-top: 20px
+    padding-left: 26px
+    font-size: 16px
+    padding-bottom: 32px
+    +bold
+  &-block
+    background-color: #f7f7f7
+    width: 370px
+    height: 410px
+    margin-right: 28px
+  &-block2
+    background-color: #f7f7f7
+    width: 370px
+    height: 410px
+    margin-right: 30px
+  &-block3
+    background-color: #f7f7f7
+    width: 370px
+    height: 410px
+@media (max-width: 1200px)
+  .help
+    justify-content: space-around
+@media (max-width: 768px)
+  .help
+    align-items: center
+    flex-direction: column
+    &-block
+      margin-right: 0
+      margin-bottom: 80px
+    &-block2
+      margin-right: 0
+      margin-bottom: 80px
+
+

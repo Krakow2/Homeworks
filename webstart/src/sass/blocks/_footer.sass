@@ -1,0 +1,80 @@
+.footer
+  position: relative
+  display: flex
+  justify-content: flex-end
+.map
+  left: 0
+  position: absolute
+  width: 50%
+  height: 100%
+.contacts
+  flex-basis: 50%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  padding-left: 200px
+  &__title
+    width: 315  px
+    padding: 0
+    margin: 0
+    +bold
+    font-size: 22px
+    line-height: 1.5
+    margin-bottom: 71px
+    margin-top: 92px
+    padding-left: 11px
+  &-block
+    display: flex
+    justify-content: flex-end
+  &-list
+    padding: 0
+    list-style: none
+    &__text
+      line-height: 1.6
+    &__icon
+      width: 20px
+      height: 20px
+      text-align: center
+      line-height: 20px
+      margin-right: 22px
+      margin-left: 7px
+      margin-top: 10px
+    &__icon1
+      width: 20px
+      height: 20px
+      text-align: center
+      line-height: 20px
+      margin-right: 20px
+      margin-left: 7px
+    &__item
+      display: flex
+      align-items: flex-start
+      margin-bottom: 28px
+.btext
+  font-weight: bold
+@media (max-width: 1200px)
+  .contacts
+    &-block
+  .map
+@media (max-width: 768px)
+  .map
+    bottom: 0
+    width: 100%
+    height: 50%
+    order: 2
+  .footer
+    display: flex
+    flex-direction: column
+    height: 1122px
+  .contacts
+    width: 100%
+    height: 457px
+    padding: 0
+    &__title
+      width: 245px
+      height: 61px
+      font-size: 18px
+      font-weight: 400
+    &-block
+      justify-content: center
+      

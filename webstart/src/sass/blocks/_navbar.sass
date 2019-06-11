@@ -5,6 +5,7 @@
     justify-content: space-between
     align-items: center
   &__info
+    margin-bottom: 2px
     display: flex
     align-items: center
     text-align: right
@@ -16,17 +17,20 @@
   &__button
     margin-left: 30px
     height: 49px
-    width: 170px
     flex-direction: column
     font-size: 13px
     font-weight: 400
+    outline: none
+    &:hover
+      background-color: lighten($main-color, 10%)
+      cursor: pointer
   &__phone
     display: inline-block
     color: $text-color
-    font-size: 20px
-    font-weight: 400    
+    font-size: 20px  
     text-decoration: none
-    margin-top: 10px
+    margin-top: 7px
+    +bold
 @media (max-width: 768px)
   .navbar
     &_contacts
