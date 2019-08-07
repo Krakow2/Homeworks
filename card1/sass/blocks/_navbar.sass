@@ -25,4 +25,27 @@
       font-weight: 300
       font-family: 'Futura PT Light'
       &:last-child
-        margin-right:   0
+        margin-right:   
+@media (max-width: 768px)
+  .navbar__text-1
+    font-size: 18px
+  .navbar__text
+    justify-content: space-between
+    margin: auto
+@media (max-width: 576px)
+  .navbar
+    margin-top: 8px
+  .navbar__text-1
+    font-size: 14px
+    padding-bottom: 10px
+    font-size: 18px
+  .navbar__text
+    flex-wrap: wrap
+  .navbar__icon
+    margin-left: 0px
+    flex-direction: column
+    left: 0
+    margin: 0
+    &-what
+        padding-left: 0
+        padding-top: 10px

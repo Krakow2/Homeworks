@@ -16,6 +16,23 @@ img
 .container
   margin: auto
   width: 940px
-.main-img
-  position: absolute
-  z-index: -200
+@media (max-width: 1200px)
+  .container
+    width: 95%
+    max-width: 960px
+  body
+    background-size: cover
+@media (max-width: 768px)
+  .container
+    max-width: 760px
+    width: 90%
+    margin-top: 0
+  
+@media (max-width: 576px)
+  .container
+    max-width: 500px
+    width: 90%
+@media (max-width: 320px)
+  .container
+    max-width: 310px
+    width: 95%
