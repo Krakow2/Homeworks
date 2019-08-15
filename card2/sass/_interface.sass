@@ -7,14 +7,38 @@ link
 body
   font-family: serif
   overflow-x: hidden
-  background-image: url(../img/3-layers.jpg)
-  background-position: 42% 38%
-  background-repeat: no-repeat
 img
-
+  max-width: 100%
 .container
   margin: auto
   width: 921px
+.container1
+  margin: auto
+  width: 1052px
+  
 .main-img
   position: absolute
   z-index: -200
+@media (max-width: 1200px)
+  .container
+    width: 95%
+    max-width: 610px
+@media (max-width: 950px)
+  body
+    background-image: url(../img/3-layers.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: -15px 42px
+@media (max-width: 768px)
+  .container
+    max-width: 600px
+    width: 90%
+    margin-top: 0
+@media (max-width: 576px)
+  .container
+    max-width: 500px
+    width: 90%
+@media (max-width: 320px)
+  .container
+    max-width: 310px
+    width: 95%

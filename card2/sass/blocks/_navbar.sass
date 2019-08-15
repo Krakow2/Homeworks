@@ -3,6 +3,7 @@
   justify-content: space-between
   margin-top: 8px
   height: 40px
+  flex-wrap: wrap
   &-left
     display: flex
     align-items: center
@@ -30,3 +31,9 @@
     justify-content: space-between
     &-bold
       font-family: 'Futura PT Demi'
+@media (max-width: 768px)
+  .navbar
+    &-logo
+      margin-right: 10px  
+    &-text
+      display: none
