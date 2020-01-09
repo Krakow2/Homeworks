@@ -1,0 +1,95 @@
+.footer
+  padding-top: 50px
+  padding-bottom: 50px
+  background-color: #000
+  color: #fff
+  &-content
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-img
+    width: 26px
+    &__img
+      width: 18px
+    &__color
+      display: none
+  &-address
+    display: flex
+    align-items: center
+  &-ph
+    width: 20px
+    margin-right: 13px
+  &-image
+    &__inst
+      width: 26px
+      height: 26px
+      &:hover
+        .footer-img__color
+          display: block
+        .footer-img__inst
+          display: none
+    &__vk
+      width: 26px
+      height: 26px
+      &:hover
+        .footer-img__color
+          display: block
+        .footer-img__vk
+          display: none
+    &__odn
+      width: 26px
+      height: 26px
+      &:hover
+        .footer-img__color
+          display: block
+        .footer-img__odn
+          display: none
+  &-contacts
+    width: 98px
+    display: flex
+    justify-content: space-between
+    &-2
+      display: flex
+  &-tel
+    margin-left: 50px
+    display: flex
+    &__text
+      color: #fff
+    &__color
+      font-weight: 800
+  &-email
+    display: flex
+    position: relative
+    &__text
+      color: #fff
+      margin-left: 10px 
+    &::after
+      content: ''
+      position: absolute
+      width: 1px
+      height: 15px
+      background-color: #ffffff
+      opacity: 0.33
+      right: -27px
+@media (max-width: 1200px)
+  .footer
+    &-contacts-2
+      flex-direction: column
+    &-email
+      margin-bottom: 10px
+      &::after
+        display: none
+    &-tel
+      margin: 0
+@media (max-width: 768px)
+  .footer
+    &-address
+      flex-direction: column
+@media (max-width: 567px)
+  .footer
+    &-contacts
+      margin-bottom: 20px
+    &-content
+      flex-direction: column
+    &-address
+      margin-bottom: 20px
